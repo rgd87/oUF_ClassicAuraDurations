@@ -32,14 +32,13 @@ local function prehook_PostUpdateIcon(element)
 end
 
 local function hook(frame)
-	frame.SmoothBar = SmoothBar
 	if frame.Buffs then
-		if frame.Buffs.PostUpdateIcon then
+		if frame.Buffs then
 			prehook_PostUpdateIcon(frame.Buffs)
 		end
 	end
 	if frame.Debuffs then
-		if frame.Debuffs.PostUpdateIcon then
+		if frame.Debuffs then
 			prehook_PostUpdateIcon(frame.Debuffs)
 		end
 	end
