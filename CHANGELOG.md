@@ -1,3 +1,7 @@
+### 1.13.7
+
+- updated to the latest version of LCD
+
 ### 1.13.6
 
 - added combo point tracking, Rupture and KS timers
