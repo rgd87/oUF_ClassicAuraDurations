@@ -1,3 +1,7 @@
+### 1.13.8
+
+- update for stress test combat log changes
+
 ### 1.13.7
 
 - updated to the latest version of LCD

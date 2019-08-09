@@ -8,7 +8,7 @@ local LCDWrapper = function(element, unit, button, index, position, duration, ex
 	if duration == 0 then
 		-- PostUpdateIcon doesn't pass spellID, so have to call UnitAura again for it
 		local name, _, _, _, _, _, caster, _, _, spellID = UnitAura(unit, index, button.filter)
-		local durationNew, expirationTimeNew = LibClassicDurations:GetAuraDurationByUnit(unit, spellID, caster)
+		local durationNew, expirationTimeNew = LibClassicDurations:GetAuraDurationByUnit(unit, spellID, caster, name)
 		if durationNew and durationNew > 0 then
 			duration = durationNew
 			expiration = expirationTimeNew
