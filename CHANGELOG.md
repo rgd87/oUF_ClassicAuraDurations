@@ -1,3 +1,7 @@
+### 1.13.9
+
+- creature spells
+
 ### 1.13.8
 
 - update for stress test combat log changes
