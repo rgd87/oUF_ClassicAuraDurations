@@ -1,3 +1,7 @@
+### 1.13.10
+
+- fixed CoA
+
 ### 1.13.9
 
 - creature spells
